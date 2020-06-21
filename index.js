@@ -23,6 +23,12 @@ app.post('/save', (req, res) => {
 
 });
 
+app.post('/chat', (req, res) => {
+    val = req.body;
+    res.status(200).end()
+
+});
+
 // make the server listen to requests
 app.listen(PORT, () => {
     console.log(`Server running at: http://localhost:${PORT}/`);
