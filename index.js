@@ -19,7 +19,6 @@ app.get('/', (req, res) => {
 
 app.post('/save', (req, res) => {
     val = req.body;
-    res.redirect('/');
     res.status(200).end()
 
 });
