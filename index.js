@@ -8,7 +8,7 @@ const app = express();
 app.use(bodyParser.json())
 
 // server configuration
-const PORT = 8080 || process.env.PORT;
+const PORT = process.env.PORT || 8080;
 
 var val = 'No value yet';
 
